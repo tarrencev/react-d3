@@ -5,8 +5,7 @@ var expect = require('chai').expect;
 describe('LineChart', function() {
   it('renders linechart', function() {
     var React = require('react/addons');
-    var LineChart = require('../src/linechart.js').LineChart;
-    var Bar = require('../src/linechart.js').Bar;
+    var LineChart = require('../src/linechart/linechart.js').LineChart;
     var generate = require('../utils/datagen').generateArrayOfPoints;
     var TestUtils = React.addons.TestUtils;
 
